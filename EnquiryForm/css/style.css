@@ -1,0 +1,199 @@
+﻿body {
+margin-top:50px;
+
+}
+.form-container{
+    background-color: rgba(255,255,255,0.9);
+    font-family: 'Titillium Web', sans-serif;
+    padding: 25px 30px 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.form-container .title{
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 25px;
+}
+.form-container .title:after{
+    content: '';
+    background-color: #0cd674;
+    height: 2px;
+    width: 150px;
+    margin: 5px auto 0;
+    clear: both;
+    display: block;
+}
+.form-container .form-horizontal{
+    margin: 0 0 20px;
+    font-size: 0;
+}
+.form-container .form-horizontal .sub-title{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 17px 0 0;
+    border-top: 1px solid #d1d1d1;
+}
+.form-horizontal .form-group{
+    width: calc(50% - 10px);
+    margin: 0 10px 15px 0;
+    display: inline-block;
+}
+.form-horizontal .form-group:nth-child(even){ margin: 0 0 10px 10px; }
+.form-horizontal .form-group:nth-child(3),
+.form-horizontal .form-group:nth-child(4){
+    margin-bottom: 25px;
+}
+.form-horizontal .form-group.phone-no{ margin: 0 10px 20px 0; }
+.form-horizontal .form-group.age{ margin: 0 0 20px 10px; }
+.form-horizontal .form-group label{
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0 0 3px;
+}
+.form-horizontal .form-control{
+    color: #555;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 33px;
+    padding: 5px;
+    box-shadow: none;
+    border: 1px solid #d1d1d1;
+    border-radius: 0;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.form-horizontal .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #0cd674;
+}
+.form-horizontal .btn{
+    color: #fff;
+    background: #0cd674;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 7px 20px 7px;
+    margin: 0 auto 20px;
+    border: none;
+    border-radius: 0;
+    display: block;
+    transition: all 0.3s ease;
+}
+.form-horizontal .btn:hover,
+.form-horizontal .btn:focus{
+    color: #fff;
+    background-color: #0cd674;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3),0 0 10px rgba(0,0,0,0.3) inset;
+    outline: none;
+}
+.form-horizontal .user-login{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+.form-horizontal .user-login a{
+    color: #0cd674;
+    transition: all 0.3s ease 0s;
+}
+.form-horizontal .user-login a:hover{ color: #555; }
+.form-container .social-links{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+.demo{ font-family: 'Poppins', sans-serif; }
+.panel{
+    padding: 10px;
+    border-radius: 0;
+}
+.panel .panel-heading{ padding: 20px 15px 0; }
+.panel .panel-heading .title{
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+}
+.panel .panel-heading .btn{
+    background-color: #6D7AE0;
+    padding: 6px 12px;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+.panel .panel-heading .btn:hover{
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.08);
+}
+.panel .panel-body .table{
+    margin: 0;
+    border: 1px solid #e7e7e7;
+}
+.panel .panel-body .table tr td{ border-color: #e7e7e7; }
+.panel .panel-body .table thead tr.active th{
+    color: #fff;
+    background-color: #6D7AE0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    border: 1px solid #6D7AE0;
+}
+.panel .panel-body .table tbody tr:hover{ background-color: rgba(109, 122, 224, 0.1); }
+.panel .panel-body .table tbody tr td{
+    color: #555;
+    padding: 8px 12px;
+    vertical-align: middle;
+}
+.panel .panel-body .table tbody .btn{
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+.panel .panel-body .table tbody .btn:hover{ box-shadow: 0 0 0 2px #333; }
+.panel .panel-footer{
+    background-color: #fff;
+    padding: 0 15px 5px;
+    border: none;
+}
+.panel .panel-footer .col{ line-height: 35px; }
+.pagination{ margin: 0; }
+.pagination li a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #6D7AE0;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    line-height: 33px;
+    padding: 0;
+    margin: 0 2px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.pagination li:first-child a,
+.pagination li:last-child a{
+    border-radius: 0;
+}
+.pagination li a:hover,
+.pagination li a:focus,
+.pagination li.active a{
+    color: #fff;
+    background-color: #6D7AE0;
+}
+
+
+
